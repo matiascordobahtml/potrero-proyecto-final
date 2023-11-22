@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:wght@400;700&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 300px;
+  background-image: url(https://le-cdn.website-editor.net/269413d2a8894f7889381a42ab9f1324/dms3rep/multi/opt/DSCF5616-1920w.jpg);
+  background-size: cover;
+}
+
+header a {
+  display: flex;
+  color: rgb(240, 248, 224);
+  padding: 2rem;
+  font-family: "Cinzel", serif;
+  font-size:x-large;
+  background-color: #222;
+}
+
+header a:hover {
+    color: rgb(193, 162, 196);
+}
+
+a {
+  text-decoration: none;
+}
+
+.formulario {
+  width: 400px;
+  background-color: #222;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.formulario h1 {
+  font-size: 32px;
+}
+
+.control {
+  width: 100%;
+  background-color: #222;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(193, 162, 196);
+  font-size: 18px;
+}
+
+.formulario .boton {
+  width: 100%;
+  background-color: #140d14;
+  padding: 12px;
+  color: #fff;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.formulario .boton:hover{
+    cursor:pointer;
+}

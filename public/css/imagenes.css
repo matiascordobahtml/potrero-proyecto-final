@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:wght@400;700&display=swap");
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #222;
+}
+
+
+header, footer {
+  display: flex;
+  background-color: #222;
+}
+
+header a {
+    color: rgb(240, 248, 224);
+    padding: 2rem;
+    font-family: "Cinzel", serif;
+    font-size:x-large;
+  }
+  
+  header a:hover {
+    color: rgb(193, 162, 196);
+  }
+
+  a {
+    font-family: "Cinzel", serif;
+    font-size: larger;
+    color: #eee;
+    text-decoration: none;
+  }
